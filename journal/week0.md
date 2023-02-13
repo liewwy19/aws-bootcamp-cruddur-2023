@@ -99,9 +99,9 @@ which will return a TopicARN
 We'll create a subscription supply the TopicARN and our Email
 ```sh
 aws sns subscribe \
-    --topic-arn TopicARN \
-    --protocol email \
-    --notification-endpoint your@email.com
+    --topic-arn="arn:aws:sns:ap-southeast-1:110747955323:billing-alarm" \
+    --protocol=email \
+    --notification-endpoint="liewwy19@gmail.com"
 ```
 
 Check your email and confirm the subscription
@@ -136,3 +136,10 @@ aws budgets create-budget \
     --budget file://aws/json/budget.json \
     --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
 ```
+
+## Git Tag
+
+'''sh
+git tag week0
+git push --tags
+'''
