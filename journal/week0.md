@@ -139,7 +139,21 @@ aws budgets create-budget \
 
 ## Git Tag
 
+Git tags are used as reference points in your development worflow.
+
 ```sh
 git tag week0
 git push --tags
+```
+
+To delete a tag
+
+#### local
+```sh
+git tag -d <tag_name>
+```
+
+#### remote
+```sh
+git push --delete origin <tag_name>
 ```
