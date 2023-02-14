@@ -139,7 +139,7 @@ aws budgets create-budget \
 
 ## Git Tag
 
-'''sh
+```sh
 git tag week0
 git push --tags
-'''
+```
