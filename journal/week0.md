@@ -40,8 +40,14 @@ Done
 
 ## Homework Challenges
 
+### Turn on MFA for roor account
+![mfa_root](../_docs/assets/week0/root_mfa.png)
 
+### Turn on MFA for admin user account
+![mfa_admin_user](../_docs/assets/week0/admin_user_mfa.png)
 
+### Turn on Free-tier Usage alert
+![mfa_root](../_docs/assets/week0/freetier_usage_n_budget_alert_notification.png)
 
 ***
 
