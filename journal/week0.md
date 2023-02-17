@@ -2,31 +2,37 @@
 
 ## Required Homework/Tasks
 
-#### Watched Week 0 - Live Streamed Video 
+### Watched Week 0 - Live Streamed Video 
 :white_check_mark:Done
 
-#### Watched Chirag's Week 0 - Spend Considerations 
+### Watched Chirag's Week 0 - Spend Considerations 
 :white_check_mark:Done
 
-#### Watched Ashish's Week 0 - Security Considerations 
+### Watched Ashish's Week 0 - Security Considerations 
 :white_check_mark:Done
 
-#### Recreate Conceptual Diagram in Lucid Charts or on a Napkin
+### Recreate Conceptual Diagram in Lucid Charts or on a Napkin
 
-#### Recreate Logical Architectual Diagram in Lucid Charts
+### Recreate Logical Architectual Diagram in Lucid Charts
 
-#### Create an Admin User	
+### Create an Admin User	
+![Admin_User_dashboard](../_docs/assets/week0/IAM_dashboard_Admin_User.png)
 
-#### Use CloudShell	
+### Use CloudShell	
+![aws_cloudshell](../_docs/assets/week0/cloudshell.png)
 
-#### Generate AWS Credentials	
+### Generate AWS Credentials	
+![aws_access_key](../_docs/assets/week0/aws_credentials.png)
 
-#### Installed AWS CLI	
+### Installed AWS CLI	
+![aws_cli](../_docs/assets/week0/gitpod_aws_cli.png)
 
-#### Create a Billing Alarm	
+### Create a Billing Alarm	
+![aws_confirm_subscription](../_docs/assets/week0/confirm_subscription.png)
+![aws_confirm_subscription](../_docs/assets/week0/billing_alarm.png)
 
-#### Create a Budget	
-
+### Create a Budget	
+![aws_budget](../_docs/assets/week0/create_budget.png)
 
 
 ## Homework Challenges
