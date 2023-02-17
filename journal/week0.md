@@ -41,14 +41,17 @@ Done
 
 ## :pencil: Homework Challenges
 
-### Turn on MFA for roor account
+### :bulb:Turn on MFA for roor account
 ![mfa_root](../_docs/assets/week0/root_mfa.png)
 
-### Turn on MFA for admin user account
+### :bulb:Turn on MFA for admin user account
 ![mfa_admin_user](../_docs/assets/week0/admin_user_mfa.png)
 
-### Turn on Free-tier Usage alert
+### :bulb:Turn on Free-tier Usage alert
 ![mfa_root](../_docs/assets/week0/freetier_usage_n_budget_alert_notification.png)
+
+### :bulb:Research on AWS Service Quotas
+Please refer to my technical essay here: [Understanding AWS Service Quotas](_docs/understanding_aws_service_quotas.md)
 
 ***
 
