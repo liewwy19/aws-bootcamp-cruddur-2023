@@ -2,36 +2,39 @@
 
 ## Required Homework/Tasks
 
-### Watched Week 0 - Live Streamed Video 
-:white_check_mark:Done
+### Watched Week 0 - Live Streamed Video :white_check_mark:
+Done
 
-### Watched Chirag's Week 0 - Spend Considerations 
-:white_check_mark:Done
+### Watched Chirag's Week 0 - Spend Considerations :white_check_mark:
+Done
 
-### Watched Ashish's Week 0 - Security Considerations 
-:white_check_mark:Done
+### Watched Ashish's Week 0 - Security Considerations :white_check_mark:
+Done
 
-### Recreate Conceptual Diagram in Lucid Charts or on a Napkin
+### Recreate Conceptual Diagram in Lucid Charts or on a Napkin :white_check_mark:
+![aws_cloudshell](../_docs/assets/week0/napkin_design.jpg)
 
-### Recreate Logical Architectual Diagram in Lucid Charts
+### Recreate Logical Architectual Diagram in Lucid Charts :white_check_mark:
+![aws_cloudshell](../_docs/assets/week0/CRUDDUR_lucidchart.png)
+:link:[Lucidchart Link](https://lucid.app/lucidchart/46cefaa2-29cb-4260-a7c5-9c3959598a02/edit?viewport_loc=-137%2C47%2C1993%2C811%2C0_0&invitationId=inv_8196240e-2a89-4aec-9fc9-2dff1aceb8dd)
 
-### Create an Admin User	
+### Create an Admin User :white_check_mark:	 
 ![Admin_User_dashboard](../_docs/assets/week0/IAM_dashboard_Admin_User.png)
 
-### Use CloudShell	
+### Use CloudShell :white_check_mark:
 ![aws_cloudshell](../_docs/assets/week0/cloudshell.png)
 
-### Generate AWS Credentials	
+### Generate AWS Credentials	:white_check_mark:
 ![aws_access_key](../_docs/assets/week0/aws_credentials.png)
 
-### Installed AWS CLI	
+### Installed AWS CLI	:white_check_mark:
 ![aws_cli](../_docs/assets/week0/gitpod_aws_cli.png)
 
-### Create a Billing Alarm	
+### Create a Billing Alarm	:white_check_mark:
 ![aws_confirm_subscription](../_docs/assets/week0/confirm_subscription.png)
 ![aws_confirm_subscription](../_docs/assets/week0/billing_alarm.png)
 
-### Create a Budget	
+### Create a Budget	:white_check_mark:
 ![aws_budget](../_docs/assets/week0/create_budget.png)
 
 
