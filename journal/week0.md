@@ -1,6 +1,6 @@
 # Week 0 — Billing and Architecture
 
-## Required Homework/Tasks
+## :pencil: Required Homework/Tasks
 
 ### Watched Week 0 - Live Streamed Video :white_check_mark:
 Done
@@ -37,8 +37,9 @@ Done
 ### Create a Budget	:white_check_mark:
 ![aws_budget](../_docs/assets/week0/create_budget.png)
 
+***
 
-## Homework Challenges
+## :pencil: Homework Challenges
 
 ### Turn on MFA for roor account
 ![mfa_root](../_docs/assets/week0/root_mfa.png)
