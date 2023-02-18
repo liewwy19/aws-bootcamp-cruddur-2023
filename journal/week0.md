@@ -41,10 +41,10 @@ Done
 
 ## :pencil: Homework Challenges
 
-### :bulb:Turn on MFA for roor account
+### :bulb:Enable MFA for roor account
 ![mfa_root](../_docs/assets/week0/root_mfa.png)
 
-### :bulb:Turn on MFA for admin user account
+### :bulb:Enable MFA for admin user account
 ![mfa_admin_user](../_docs/assets/week0/admin_user_mfa.png)
 
 ### :bulb:Turn on Free-tier Usage alert
@@ -52,6 +52,34 @@ Done
 
 ### :bulb:Research on AWS Service Quotas
 Please refer to my technical essay here: [Understanding AWS Service Quotas](_docs/understanding_aws_service_quotas.md)
+
+### :bulb:Enable and setup AWS Organization
+![mfa_root](../_docs/assets/week0/aws_organization.png)
+
+### :bulb:Enable SCP and add new SCP policy to require MFA for AWS EC2 API call
+![mfa_root](../_docs/assets/week0/aws_SCP.png)
+![mfa_root](../_docs/assets/week0/attach_SCP.png)
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DenyStopAndTerminateEC2WhenMFAIsNotPresent",
+      "Effect": "Deny",
+      "Action": [
+        "ec2:StopInstances",
+        "ec2:TerminateInstances"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "BoolIfExists": {
+          "aws:MultiFactorAuthPresent": false
+        }
+      }
+    }
+  ]
+}
+```
 
 ***
 
