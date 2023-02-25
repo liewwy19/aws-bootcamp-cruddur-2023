@@ -1,4 +1,4 @@
-FROM node:16.19.1
+FROM node:16.19.1-bullseye-slim
 ENV PORT=3000
 # add curl for healthcheck
 RUN apt-get update \
