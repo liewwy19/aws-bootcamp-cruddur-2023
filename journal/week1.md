@@ -9,12 +9,75 @@
 ### :white_check_mark: Watcked Chirag's Week 1 - Spending Considerations
 ### :white_check_mark: Watched Ashish's Week 1 - Container Security Considerations
 ### :white_check_mark: Containerize Application (Dockerfiles, Docker Compose)
+![Docker_Compose_UP](../_docs/assets/week1/week1_docker_compose_up.png)
 ### :white_check_mark: Document the Notification Endpoint for the OpenAI Document
+![OpenAPI_Notifications](../_docs/assets/week1/week1_openAPI_notifications.png)
 ### :white_check_mark: Write a Flask Backend Endpoint for Notifications
-### :white_check_mark: Write a React Page for Notifications
-### :white_check_mark: Run DynamoDB Local Container and ensure it works
-### :white_check_mark: Run Postgres Container and ensure it works
+```python
 
+# /backend-flasj/services/notifications_activities.py
+
+from datetime import datetime, timedelta, timezone
+class NotificationsActivities:
+  def run():
+    now = datetime.now(timezone.utc).astimezone()
+    results = [{
+      'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
+      'handle':  'coco',
+      'message': 'I am white unicorn',
+      'created_at': (now - timedelta(days=2)).isoformat(),
+      'expires_at': (now + timedelta(days=5)).isoformat(),
+      'likes_count': 5,
+      'replies_count': 1,
+      'reposts_count': 0,
+      'replies': [{
+        'uuid': '26e12864-1c26-5c3a-9658-97a10f8fea67',
+        'reply_to_activity_uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
+        'handle':  'worf',
+        'message': 'this post has no honor!',
+        'likes_count': 0,
+        'replies_count': 0,
+        'reposts_count': 0,
+        'created_at': (now - timedelta(days=2)).isoformat()
+      }],
+    }
+    ]
+    return results
+```
+### :white_check_mark: Write a React Page for Notifications
+![Notifications_Feedpage](../_docs/assets/week1/week1-notification_pagefeed.png)
+### :white_check_mark: Run DynamoDB Local Container and ensure it works
+![DynamoDB_UP](../_docs/assets/week1/week1-dynamoDB-UP.png)
+### :white_check_mark: Run Postgres Container and ensure it works\
+![Postgres_CLI](../_docs/assets/week1/week1_postgres_CLI.png)
+Updated `.gitpod.yml` file:
+```bash
+tasks:
+  - name: aws-cli
+    env:
+      AWS_CLI_AUTO_PROMPT: on-partial
+    init: |
+      cd /workspace
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      unzip awscliv2.zip
+      sudo ./aws/install
+      cd $THEIA_WORKSPACE_ROOT
+      export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
+      cd ./frontend-react-js
+      npm i
+      cd $THEIA_WORKSPACE_ROOT
+  - name: postgres
+    init: |
+      curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
+      echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
+      sudo apt update
+      sudo apt install -y postgresql-client-13 libpq-dev
+vscode:
+  extensions:
+    - 42Crunch.vscode-openapi
+    - cweijan.vscode-postgresql-client2
+    - amazonwebservices.aws-toolkit-vscode
+```
 ***
 ## :pencil: Homework Challenges
 
