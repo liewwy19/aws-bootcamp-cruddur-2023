@@ -1,5 +1,25 @@
 # Week 1 — App Containerization
 
+## :pencil: Required Homework/Tasks
+
+### :white_check_mark: Watch How to Ask for Technical Help 
+### :white_check_mark: Watched Grading Homework Summaries 
+### :white_check_mark: Watched Week 1 - Live Streamed Video
+### :white_check_mark: Remember to Commit Your Code
+### :white_check_mark: Watcked Chirag's Week 1 - Spending Considerations
+### :white_check_mark: Watched Ashish's Week 1 - Container Security Considerations
+### :white_check_mark: Containerize Application (Dockerfiles, Docker Compose)
+### :white_check_mark: Document the Notification Endpoint for the OpenAI Document
+### :white_check_mark: Write a Flask Backend Endpoint for Notifications
+### :white_check_mark: Write a React Page for Notifications
+### :white_check_mark: Run DynamoDB Local Container and ensure it works
+### :white_check_mark: Run Postgres Container and ensure it works
+
+***
+## :pencil: Homework Challenges
+
+***
+
 ## References
 
 Good Article for Debugging Connection Refused
