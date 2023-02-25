@@ -81,6 +81,26 @@ vscode:
 ***
 ## :pencil: Homework Challenges
 
+### :bulb: Added repository to snyk.io for vulnerability check
+![Snyk_dashboard](../_docs/assets/week1/week1_snyk_dashboard.png)
+
+### :bulb: solved vulnerability wiht recomended Pull Request
+![GitHUb_PR](../_docs/assets/week1/week1_github_PR.png)
+
+### :bulb: add Curl for healthcheck for all Dockerfile
+```bash
+# add curl for healthcheck
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+```
+
+### :bulb: Uploaded images to DockerHub
+![GitHUb_PR](../_docs/assets/week1/week1_dockerImage_push.png)
+
+### :bulb: setup a virtualBox locally and running the containers through pulling the images from DockerHub
+
 ***
 
 ## References
