@@ -1,4 +1,18 @@
 # Week 2 — Distributed Tracing
+## :pencil: Required Homework/Tasks
+
+### :white_check_mark: Watch Week 2 Live-Stream Video
+### :white_check_mark: Watch Chirag Week 2 - Spending Considerations
+### :white_check_mark: Watched Ashish's Week 2 - Observability Security Considerations	
+### :white_check_mark: Instrument Honeycomb with OTEL	
+Documentation: [OpenTelemetry for Python](https://docs.honeycomb.io/getting-data-in/opentelemetry/python/)
+### :white_check_mark: Instrument AWS X-Ray	
+### :white_check_mark: Configure custom logger to send to CloudWatch Logs	
+### :white_check_mark: Integrate Rollbar and capture and error	
+
+***
+## :pencil: Homework Challenges
+***
 
 ## X-Ray
 
