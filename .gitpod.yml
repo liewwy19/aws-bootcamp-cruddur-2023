@@ -7,9 +7,11 @@ tasks:
       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
       unzip awscliv2.zip
       sudo ./aws/install
-      cd $THEIA_WORKSPACE_ROOT
       export AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
-      cd ./frontend-react-js
+      cd $THEIA_WORKSPACE_ROOT
+  - name: react-js
+    command: |
+      cd frontend-react-js
       npm i
       cd $THEIA_WORKSPACE_ROOT
   - name: postgres
@@ -34,5 +36,8 @@ ports:
     visibility: public
   - name: xray-daemon
     port: 2000
+    visibility: public
+  - name: postgres
+    port: 5432
     visibility: public
 
