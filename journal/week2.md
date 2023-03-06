@@ -22,6 +22,7 @@ Documentation: [OpenTelemetry for Python](https://docs.honeycomb.io/getting-data
 ![](/_docs/assets/week2/aws-observability.png)
 - Add custom instrumentation to Honeycomb (backend service) to add more attributes: browser timezone, browser default language, app result length
 - able to get the subsegment works for AWS xray
+![](/_docs/assets/week2/week2-xray-subsegment.png)
 - filled up the "My Journey to the Cloud" form template and written down my personal DevOps Engineer roadmap (with how I'm planning to tackle it)
 
 
