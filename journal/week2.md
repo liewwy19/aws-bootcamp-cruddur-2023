@@ -18,6 +18,11 @@ Documentation: [OpenTelemetry for Python](https://docs.honeycomb.io/getting-data
 ***
 ## :pencil: Homework Challenges
 
+- found and walk through a great online workshop on AWS Observability. Gain much better understanding of all the options offered by AWS. [AWS Observability Workshop](https://catalog.workshops.aws/observability/en-US/intro)
+![](/_docs/assets/week2/aws-observability.png)
+- Add custom instrumentation to Honeycomb (backend service) to add more attributes: browser timezone, browser default language, app result length
+- able to get the subsegment works for AWS xray
+- filled up the "My Journey to the Cloud" form template and written down my personal DevOps Engineer roadmap (with how I'm planning to tackle it)
 
 
 ***
