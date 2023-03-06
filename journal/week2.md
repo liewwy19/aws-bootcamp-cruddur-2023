@@ -9,6 +9,7 @@ Documentation: [OpenTelemetry for Python](https://docs.honeycomb.io/getting-data
 ![](/_docs/assets/week2/week2-honeycomb.png)
 ### :white_check_mark: Instrument AWS X-Ray	
 ![](/_docs/assets/week2/week2-xray.png)
+### :white_check_mark: Instrument AWS X-Ray Subsegments
 ### :white_check_mark: Configure custom logger to send to CloudWatch Logs	
 ![](/_docs/assets/week2/week2-cloudwatch.png)
 ### :white_check_mark: Integrate Rollbar and capture and error	
