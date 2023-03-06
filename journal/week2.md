@@ -6,12 +6,19 @@
 ### :white_check_mark: Watched Ashish's Week 2 - Observability Security Considerations	
 ### :white_check_mark: Instrument Honeycomb with OTEL	
 Documentation: [OpenTelemetry for Python](https://docs.honeycomb.io/getting-data-in/opentelemetry/python/)
+![](/_docs/assets/week2/week2-honeycomb.png)
 ### :white_check_mark: Instrument AWS X-Ray	
+![](/_docs/assets/week2/week2-xray.png)
 ### :white_check_mark: Configure custom logger to send to CloudWatch Logs	
+![](/_docs/assets/week2/week2-cloudwatch.png)
 ### :white_check_mark: Integrate Rollbar and capture and error	
+![](/_docs/assets/week2/week2-rollbar.png)
 
 ***
 ## :pencil: Homework Challenges
+
+
+
 ***
 
 ## X-Ray
