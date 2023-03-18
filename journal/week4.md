@@ -1,5 +1,26 @@
 # Week 4 — Postgres and RDS
 
+## :pencil: Required Homework/Tasks
+
+### :white_check_mark: Watched Ashish's Week 4 - Security Considerations
+### :white_check_mark: Create RDS Postgres Instance	
+### :white_check_mark: Bash scripting for common database actions		
+### :white_check_mark: Install Postgres Driver in Backend Application	
+### :white_check_mark: Connect Gitpod to RDS Instance	
+### :white_check_mark: Create Congito Trigger to insert user into database		
+### :white_check_mark: Create new activities with a database insert	
+
+***
+## :pencil: Homework Challenges
+- use `$THEIA_WORKSPACE_ROOT` within common database bash scripts to solve relative path issue
+![](/_docs/assets/week4/week4-relativePath-issue.png)
+- having issue with db-seed bash script (error related Not Null field), solve by updating related queries
+![](/_docs/assets/week4/week4-db-seed-issue.png)
+updated `seed.sql` as follow:
+![](/_docs/assets/week4/week4-db-seed-solution.png)
+
+***
+
 
 To connect to psql via the psql client cli tool remember to use the host flag to specific localhost.
 
