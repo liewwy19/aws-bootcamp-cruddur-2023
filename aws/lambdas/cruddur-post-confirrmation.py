@@ -43,3 +43,14 @@ def lambda_handler(event, context):
           conn.close()
           print('Database connection closed.')
     return event
+
+
+# -- default aws python lambda place holder --
+# import json
+
+# def lambda_handler(event, context):
+#     # TODO implement
+#     return {
+#         'statusCode': 200,
+#         'body': json.dumps('Hello from Lambda!')
+#     }
